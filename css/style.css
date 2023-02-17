@@ -34,7 +34,7 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 1.5rem;
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     padding: 1.5rem;
     background-color: hsl(216, 50%, 16%);
