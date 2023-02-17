@@ -34,11 +34,11 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 1.5rem;
-    max-width: 300px;
+    max-width: 350px;
     width: 100%;
     padding: 1.5rem;
     background-color: hsl(216, 50%, 16%);
-    margin: 1.5rem;
+    margin: 1rem;
     border-radius: 1.5rem;
 }
 .nft-card .image{
@@ -129,7 +129,7 @@ body{
     border: 1px solid var(--White);
     border-radius: 50px;
 }
-.nft-card .des .actor P{
+.nft-card .des .actor p{
     color: var(--Softblue);
 }
 .nft-card .des .actor p span{
