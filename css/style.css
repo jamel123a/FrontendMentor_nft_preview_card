@@ -19,7 +19,8 @@ h2,p{
     margin: 0;
 }
 p{
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 300;
 }
 body{
     font-family: 'Outfit', sans-serif;
@@ -34,13 +35,13 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 1.5rem;
-    max-width: 350px;
+    max-width: 330px;
     width: 100%;
     padding: 1.5rem;
     background-color: hsl(216, 50%, 16%);
     margin: 1rem;
     border-radius: 1.5rem;
-    box-shadow: 0rem 0rem 6rem 2rem rgba(70, 70, 70, 0.329)
+    box-shadow: 0rem 0rem 2rem 1rem rgba(70, 70, 70, 0.329)
 }
 .nft-card .image{
     cursor: pointer; 
@@ -87,12 +88,12 @@ body{
     gap: 1rem;
     flex-direction: column;
 }
-.nft-card .des h2{
+.nft-card .des h1{
     color:var(--White);
     font-size: 20px;
     font-weight: 600;
 }
-.nft-card .des h2:hover{
+.nft-card .des h1:hover{
     color: var(--Cyan);
     cursor: pointer;
 }
@@ -113,6 +114,7 @@ body{
 {
     display: flex;
     gap: 0.5rem;
+    font-weight: 300;
 }
 .nft-card .des .his .row-price p{
     color: var(--Cyan);
@@ -126,7 +128,7 @@ body{
     gap: 0.5rem;
 }
 .nft-card .des .actor img{
-    width: 25px;
+    width: 30px;
     border: 1px solid var(--White);
     border-radius: 50px;
 }
